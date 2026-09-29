@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables (DB credentials)
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Postman local workspace
+.postman/
+postman/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
